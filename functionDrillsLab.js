@@ -276,25 +276,25 @@ console.log(emailCheck(emailString));
 console.log('Problem 13');
 
 let myGold = 10;
-// function buyFrog(myGold) {
-//   let frogCost = 3;
-//   frogBought = myGold / frogCost;
-//   return frogBought
-// }
-// console.log(buyFrog(myGold));
-
-frogsBought = 0;
-function buyFrog(numGold) {
-  for(i = 0; i < myGold; i++) {
-    myGold - 3 && frogsBought + 1;
-    if(myGold === 0) {
-      break;
-    };
-    console.log(frogsBought);
-    console.log(myGold);
-  };
-};
+function buyFrog(myGold) {
+  let frogCost = 3;
+  frogBought = myGold / frogCost;
+  return frogBought
+}
 console.log(buyFrog(myGold));
+
+// frogsBought = 0;
+// function buyFrog(numGold) {
+//   for(i = 0; i < myGold; i++) {
+//     myGold - 3 && frogsBought + 1;
+//     if(myGold === 0) {
+//       break;
+//     };
+//     console.log(frogsBought);
+//     console.log(myGold);
+//   };
+// };
+// console.log(buyFrog(myGold));
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
@@ -372,15 +372,15 @@ Given the functions and variables above, edit the arrays below to contain only t
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ["duck"]
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ["squeaky", "nautical"]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ["nautical"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ["fluffy"]
 
 console.log('Problem 16');
